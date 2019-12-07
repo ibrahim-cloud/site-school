@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Varsity | Blog Single</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">          
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">    
+
+    <!-- Main style sheet -->
+    <link href="assets/css/style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+  
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>      
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header  -->
+  <header id="mu-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-header-area">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-left">
+                  <div class="mu-top-email">
+                    <i class="fa fa-envelope"></i>
+                    <span>info@markups.io</span>
+                  </div>
+                  <div class="mu-top-phone">
+                    <i class="fa fa-phone"></i>
+                    <span>(568) 986 652</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-right">
+                  <nav>
+                    <ul class="mu-top-social-nav">
+                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                      <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                      <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                      <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                      <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header  -->
+  <!-- Start menu -->
+  <section id="mu-menu">
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <!-- <a class="navbar-brand" href="index.html"><i class="fa fa-university"></i><span>Varsity</span></a>
+         IMG BASED LOGO  -->
+          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> 
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li><a href="index.html">Home</a></li>            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="course.html">Course Archive</a></li>                
+                <li><a href="course-detail.html">Course Detail</a></li>                
+              </ul>
+            </li>           
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="blog-archive.html">Blog Archive</a></li>                
+                <li><a href="blog-single.html">Blog Single</a></li>                
+              </ul>
+            </li>            
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="404.html">404 Page</a></li>               
+            <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
+          </ul>                    
+        </div><!--/.nav-collapse -->        
+      </div>     
+    </nav>
+  </section>
+  <!-- End menu -->
+  <!-- Start search box -->
+  <div id="mu-search">
+    <div class="mu-search-area">      
+      <button class="mu-search-close"><span class="fa fa-close"></span></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">            
+            <form class="mu-search-form">
+              <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End search box -->
+ <!-- Page breadcrumb -->
+ <section id="mu-page-breadcrumb">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-page-breadcrumb-area">
+           <h2>Blog Single</h2>
+           <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>            
+            <li class="active">Blog Single</li>
+          </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- End breadcrumb -->
+ <section id="mu-course-content">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-course-content-area">
+            <div class="row">
+              <div class="col-md-9">
+                <!-- start course content container -->
+                <div class="mu-course-container mu-blog-single">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <article class="mu-blog-single-item">
+                        <figure class="mu-blog-single-img">
+                          <a href="#"><img alt="img" src="assets/img/blog/blog-single.jpg"></a>
+                          <figcaption class="mu-blog-caption">
+                            <h3><a href="#">Implementing Technology with Higher Education for Improved Learning</a></h3>
+                          </figcaption>                      
+                        </figure>
+                        <div class="mu-blog-meta">
+                          <a href="#">By hajiri</a>
+                          <a href="#">02 June 2019</a>
+                          <span><i class="fa fa-comments-o"></i>7</span>
+                        </div>
+                        <div class="mu-blog-description">
+                          <p>Now, more than ever before, technology is levelling the playing field, making it easier and more affordable to discover new interests and pursue a life-changing career. Implementation of technology comes in many forms, changing how educators and students connect across the internet, how material is delivered through interactive experiences, and how students are given more control over their education.</p>
+                          <blockquote>
+                            <p>If you’re a regular reader of our blog, you’ll know that a recent post documented the five ways that technology compliments traditional education. In this post, I’ll further explain the technologies being implemented into education and how they can be used, as well as future-focused technology that we’re developing for ODEM.</p>                            
+                          </blockquote>
+                          
+                          <h2>How 5 innovative technologies are changing higher education</h2>
+                          <p>If you’re a regular reader of our blog, you’ll know that a recent post documented the five ways that technology compliments traditional education. In this post, I’ll further explain the technologies being</p>
+                          <h3>Blockchain technology.</h3>
+                          <p>Blockchain technology gives universally-accessible data provenance and immutability, meaning that it’s authenticated and verified and can’t be manipulated or tampered with. Data is secured by cryptography, a method of hashing information so that it remains private on a public blockchain. Data on a public chain can be reached anywhere in the world, but private keys are required to access it. Immutability of information is created by chain of custody, a chronological order of blocks that, like historical events, can’t be altered once another block is added.
+
+                            Education uses immutable, decentralized blockchain technology to solve significant hurdles, including verification of education records such as degrees and diplomas (read more about that on our blog), a cryptographically-secure marketplace where educators, students, and facilitators can meet, and creating greater autonomy for students.
+                            
+                          </p>
+                          <h4>Artificial intelligence</h4>
+                          <p>With permissioned information gathering, computer systems can understand human patterns and digital behavior, helping computers to better engage with users. Artificial intelligence (AI) interacts with users by suggesting possible next actions based on demonstrated interests and by troubleshooting if a user isn’t certain of what to do or look for on a platform.
+
+                            In education, AI can be very useful in supporting students through their course selection and learning process. AI provides a powerful tool for digital interaction, offering computer intelligence for identification of academic material and sorting through course catalogues. This technology can also help with studying, providing support with understanding concepts and terminology by supplying definitions and context.</p>
+                         <h4>Machine learning
+
+                        </h4>
+                        <P>A subset of AI, machine learning (ML) is an algorithm-based technology developed to perform tasks without code-based instruction. Instead, ML bases its performance on patterns and logical reasoning, with inferrance guiding next steps.
+
+                          Platforms leveraging machine learning are able to help the user in determining what may suit them. With education, ML can recognize key themes across the user’s education journey on a platform and suggest courses and experiences. There are a myriad of continued education courses made available to students, not all of which may be easy to find. ML can recommend various courses to the students, showing them options they may otherwise have missed.</P>
+                          <h4>Virtual reality
+
+                          </h4>
+                          <P>Virtual reality (VR) provides a simulated experience for the user, which can introduce them to a fictional world, a different region or country, a certain place -- anywhere. VR encapsulates users in a virtual world, made realistic by a headset that seemingly transports you. The technology operates through the use of highly visual and interactive graphic design, as if you’re stepping into a video game. Users wear a headset that transforms their environment, offering opportunity for simulated travel, entertainment, and education.
+
+                            In education, virtual reality can be used to provide students with understanding and context. Simply putting on a headset can transport a student to a different country, or a world developed specifically to teach students about history, geography, design, computer science, or anything else. Immersive education can be extremely helpful for students who aren’t linear thinkers and perform better when given opportunity for analytical thinking and creative problem solving. Like the internet, VR removes barriers, allowing students to connect with different environments across the world and opening up new learning experiences.</P>
+                          
+                          <h4>Augmented reality
+
+                          </h4>
+                          <p>Like VR, augmented reality (AR) provides an alternative to our physical world. However, AR presents a meeting of physical and digital simulation, enhancing the physical world by layering computer-generated graphics and data on top of it. AR is experienced on a screen in front of the user, either through a headset or hand-held device like a tablet.
+
+                            AR can be designed to understand physical surroundings and identify certain aspects like buildings or materials. This is supportive of education because information can be presented when certain items are recognized. A tablet held up to a city skyline, for example, could identify landmark buildings, providing information about when it was built and the historical significance. Animals, words, and various formations could all be analyzed in the same way</p>
+                          
+                          <h3>Blended learning: combining digital with physical</h3>
+                          <P>Having described the various forms of technology that are, and will continue to, influence how educators teach and students learn, at ODEM, we believe that blended learning will continue to be very popular in the future. Blended learning consists of an online and in-person learning experience in order to maximize a student’s learning potential. Blended learning is a trend that is here to stay.</P>
+                         
+                         <p>As previously described, ODEM has implemented blockchain technology into the Platform to create a decentralized on-demand education marketplace. Our innovation doesn’t stop there; we’re developing AI and ML for the Platform as well. Together, these technologies will give students and educators far greater autonomy than the current system provides, allowing them to determine how, when, and where learning takes place. Blockchain technology verifies student credentials and makes those records globally transferable across academic institutions and prospective employers. It also supports the marketplace with the ODEM Token and allows for easy transfer of skills and material for value. AI and ML will support ODEM’s mission by customizing the higher learning journey for students, helping navigate the Platform, and sourcing the best courses for them. We look forward to sharing more!</p> <ul>
+                            <li>Blockchain technology</li>
+                            <li>Artificial intelligence</li>
+                            <li>Machine learning
+
+                              .</li>
+                            <li>Virtual reality
+
+                            </li>
+                            <li>Augmented reality
+
+                            </li>
+                          </ul>
+                          <br>
+                          <BR>
+                          <h4>Visit the ODEM Platform to find out more, and join us on</h4>
+                          
+                        </div>
+                        <!-- start blog post tags -->
+                        <!--<div class="mu-blog-tags">
+                          <ul class="mu-news-single-tagnav">
+                            <li>TAGS :</li>
+                            <li><a href="#">Science,</a></li>
+                            <li><a href="#">English,</a></li>
+                            <li><a href="#">Sports,</a></li>
+                            <li><a href="#">Health</a></li>
+                          </ul>
+                        </div>
+                        End blog post tags -->
+                        <!-- start b$log social share -->
+                        <div class="mu-blog-social">
+                          <ul class="mu-news-social-nav">
+                            <li>SOCIAL SHARE :</li>
+                            <li><a href="https://www.facebook.com/odemio/"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="https://twitter.com/ODEM_IO"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/odem-io/"><span class="fa fa-linkedin"></span></a></li>
+                            
+                          </ul>
+                        </div>
+                        <!-- End blog social share -->
+                      </article>
+                    </div>                                   
+                  </div>
+                </div>
+                <!-- end course content container -->
+                <!-- start blog navigation -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mu-blog-single-navigation">
+                      <a class="mu-blog-prev" href="#"><span class="fa fa-angle-left"></span>Prev</a>
+                      <a class="mu-blog-next" href="#">Next<span class="fa fa-angle-right"></span></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end blog navigation -->
+                <!-- start related course item -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mu-related-item">
+                      <h3>Related News</h3>
+                      <div class="mu-related-item-area">
+                        <div id="mu-related-item-slide">
+                        
+                       
+                                <div class="col-md-4 col-sm-4">
+                                  <article class="mu-blog-single-item">
+                                    <figure class="mu-blog-single-img">
+                                      <a href="#"><img src="assets/img/blog/blog-1.jpg" alt="img"></a>
+                                      <figcaption class="mu-blog-caption">
+                                        <h3><a href="https://blogs.odem.io/how-will-an-education-marketplace-help-my-career">How Will an Education Marketplace Help My Career?
+                                        </a></h3>
+                                      </figcaption>                      
+                                    </figure>
+                                    <div class="mu-blog-meta">
+                                      <a href="#">By ibrahim hajiri</a>
+                                      <a href="#">November 26, 2019 </a>
+                                      <span><i class="fa fa-comments-o"></i>3</span>
+                                    </div>
+                                    <div class="mu-blog-description">
+                                      <p>An education marketplace is something I’ve wanted to launch since I first discovered blockchain technology. As a team, we already understood the gaps in the existing education system and saw that blockchain could be a great solution  ...</p>
+                                      <a class="mu-read-more-btn" href="#">Read More</a>
+                                    </div>
+                                  </article>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                  <article class="mu-blog-single-item">
+                                    <figure class="mu-blog-single-img">
+                                      <a href="#"><img src="assets/img/blog/blog-2.jpg" alt="img"></a>
+                                      <figcaption class="mu-blog-caption">
+                                        <h3><a href="https://blogs.odem.io/blockchain-technology-puts-trust-in-online-learning">Blockchain Technology Puts Trust in Online Learning</a></h3>
+                                      </figcaption>                      
+                                    </figure>
+                                    <div class="mu-blog-meta">
+                                      <a href="#">By sara hajiri</a>
+                                      <a href="#">November 21, 2019 </a>
+                                      <span><i class="fa fa-comments-o"></i>2</span>
+                                    </div>
+                                    <div class="mu-blog-description">
+                                      <p>With its decentralized network architecture, blockchain technology instills trust and transparency. Leveraging this for education,it’s a remarkable advancement for an industry characterized ...</p>
+                                      <a class="mu-read-more-btn" href="#">Read More</a>
+                                    </div>
+                                  </article>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                  <article class="mu-blog-single-item">
+                                    <figure class="mu-blog-single-img">
+                                      <a href="#"><img src="assets/img/blog/blog-3.jpg" alt="img"></a>
+                                      <figcaption class="mu-blog-caption">
+                                        <h3><a href="https://blogs.odem.io/upskill-your-way-to-the-top-in-these-careers">Upskill Your Way to the Top In These Careers</a></h3>
+                                      </figcaption>                      
+                                    </figure>
+                                    <div class="mu-blog-meta">
+                                      <a href="#">By hajar hajiri</a>
+                                      <a href="#">November 01, 2019</a>
+                                      <span><i class="fa fa-comments-o"></i>8</span>
+                                    </div>
+                                    <div class="mu-blog-description">
+                                      <p>In business, soft skills are often what will secure your way to your next promotion or career opportunity. ODEM has partnered with Chart Learning Solutions, a global learning company that provides dedicated courses for improving skills...</p>
+                                      <a class="mu-read-more-btn" href="#">Read More</a>
+                                    </div>
+                                  </article>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                  <article class="mu-blog-single-item">
+                                    <figure class="mu-blog-single-img">
+                                      <a href="#"><img src="assets/img/blog/blog-7.jpg" alt="img"></a>
+                                      <figcaption class="mu-blog-caption">
+                                        <h3><a href="https://blogs.odem.io/odem-education-and-blockchain-fasten-your-seatbelt">ODEM, Education and Blockchain: Fasten Your Seatbelt</a></h3>
+                                      </figcaption>                      
+                                    </figure>
+                                    <div class="mu-blog-meta">
+                                      <a href="https://blogs.odem.io/odem-education-and-blockchain-fasten-your-seatbelt">By Admin</a>
+                                      <a href="https://blogs.odem.io/odem-education-and-blockchain-fasten-your-seatbelt">02 June 2016</a>
+                                      <span><i class="fa fa-comments-o"></i>7</span>
+                                    </div>
+                                    <div class="mu-blog-description">
+                                      <p>Every so often when checking in for a flight I’ll jokingly ask the airline agent to “put me beside someone interesting.” My request usually generates a smile.
+            
+                                        Although air travel...</p>
+                                      <a class="mu-read-more-btn" href="https://blogs.odem.io/odem-education-and-blockchain-fasten-your-seatbelt">Read More</a>
+                                    </div>
+                                  </article>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end start related course item -->
+                <!-- start blog comment -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mu-comments-area">
+                      <h3>5 Comments</h3>
+                      <div class="comments">
+                        <ul class="commentlist">
+                          <li>
+                            <div class="media">
+                              <div class="media-left">    
+                                <img alt="img" src="assets/img/testimonial-1.png" class="media-object news-img">
+                              </div>
+                              <div class="media-body">
+                               <h4 class="author-name">abdlghani</h4>
+                               <span class="comments-date"> Posted on 3th June, 2019</span>
+                               <p>amazing.. somehow technology has a huge impact in our society especially nowadays students tend to use it in a wrong way</p>
+                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-left">    
+                                <img alt="img" src="assets/img/testimonial-2.jpg" class="media-object news-img">
+                              </div>
+                              <div class="media-body">
+                               <h4 class="author-name">adnane</h4>
+                               <span class="comments-date"> Posted on 7th June, 2019</span>
+                               <p>Technology does not replace the traditional physical teacher. It simply supports and accelerate learning. Great support resources</p>
+                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
+                              </div>
+                            </div>
+                          </li>
+                          <ul class="children">
+                            <li class="author-comments">
+                              <div class="media">
+                                <div class="media-left">    
+                                  <img alt="img" src="assets/img/teachers/teacher-04.Jpg" class="media-object news-img">
+                                </div>
+                                <div class="media-body">
+                                 <h4 class="author-name">JOHN </h4>
+                                 <span class="comments-date"> Posted on 12th June, 2019</span>
+                                 <span class="author-tag">Author</span>
+                                 <p>"Did you know that 16% of 8-11 year olds own five or more media devices and 72% of 12-15 year olds own three or more media devices? 51% of households with a child aged between 3 and 15 have a tablet compared to 7% in 2011. No matter where you look, children and students are using technology more and more because it is becoming more accessible. What is the education system doing to respond to this? Does technology have a place in schools? How can technology be used to effectively improve teaching, learning and productivity in the classroom? 
+                                  "
+                                  
+                                  Jason is a Year 13 A level student studying at Wymondham High Academy. He is passionate about technology in education and has been working with Microsoft to promote technology in education since November 2013. Part of his role as a Worldwide Microsoft Student Ambassador is to promote and advocate the use of technology such as smartphones and tablets in the classroom and inspire students to make the most of the technology they have. He has presented at events in Seattle and London about technology in education.</p>
+                                 <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
+                                </div>
+                              </div>
+                            </li>
+                            <ul class="children">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">    
+                                    <img alt="img" src="assets/img/testimonial-3.JPg" class="media-object news-img">
+                                  </div>
+                                  <div class="media-body">
+                                   <h4 class="author-name">laila</h4>
+                                   <span class="comments-date"> Posted on 18th June, 2019</span>
+                                   Technology does not replace the traditional physical teacher. It simply supports and accelerates learning. Great support resources                                   <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </ul>
+                          <li>
+                            <div class="media">
+                              <div class="media-left">    
+                                <img alt="img" src="assets/img/teachers/teacher-09.pNg" class="media-object news-img">
+                              </div>
+                              <div class="media-body">
+                               <h4 class="author-name">malika</h4>
+                               <span class="comments-date"> Posted on 30th June, 2019</span>
+                               <p>technology is bad for our brain and it can make us really tired a lo</p>
+                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <!-- comments pagination -->
+                        <nav>
+                          <ul class="pagination comments-pagination">
+                            <li>
+                              <a aria-label="Previous" href="#">
+                                <span class="fa fa-long-arrow-left"></span>
+                              </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                              <a aria-label="Next" href="#">
+                                <span class="fa fa-long-arrow-right"></span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end blog comment -->
+                <!-- start respond form -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="respond">
+                      <h3 class="reply-title">Leave a Comment</h3>
+                      <form id="commentform">
+                        <p class="comment-notes">
+                          Your email address will not be published. Required fields are marked <span class="required">*</span>
+                        </p>
+                        <p class="comment-form-author">
+                          <label for="author">Name <span class="required">*</span></label>
+                          <input type="text" required="required" size="30" value="" name="author">
+                        </p>
+                        <p class="comment-form-email">
+                          <label for="email">Email <span class="required">*</span></label>
+                          <input type="email" required="required" aria-required="true" value="" name="email">
+                        </p>
+                        <p class="comment-form-url">
+                          <label for="url">Website</label>
+                          <input type="url" value="" name="url">
+                        </p>
+                        <p class="comment-form-comment">
+                          <label for="comment">Comment</label>
+                          <textarea required="required" aria-required="true" rows="8" cols="45" name="comment"></textarea>
+                        </p>
+                        <p class="form-allowed-tags">
+                          You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code>
+                        </p>
+                        <p class="form-submit">
+                          <input type="submit" value="Post Comment" class="mu-post-btn" name="submit">
+                        </p>        
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- end respond form -->
+              </div>
+              <div class="col-md-3">
+                <!-- start sidebar -->
+                <aside class="mu-sidebar">
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Categories</h3>
+                    <ul class="mu-sidebar-catg">
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="">Web Development</a></li>
+                      <li><a href="https://odem.cloud/#/account/program-details/353">Computer Science</a></li>
+                      <li><a href="https://odem.cloud/#/account/program-details/328">Business Essentials</a></li>
+                      <li><a href="https://odem.cloud/#/account/program-details/335">Leadership and Managemen</a></li>
+                      <li><a href="">English</a></li>
+                    </ul>
+                  </div>
+                  <!-- end single sidebar -->
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Popular News</h3>
+                    <div class="mu-sidebar-popular-courses">
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="https://odem.cloud/#/account/program-details/353">
+                            <img class="media-object" src="assets/img/courses/1.png" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="https://odem.cloud/#/account/program-details/353">Computer Science</a></h4>                      
+                          <span class="popular-course-price">$200.00</span>
+                        </div>
+                      </div>
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="https://odem.cloud/#/account/program-details/328">
+                            <img class="media-object" src="assets/img/courses/2.png" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="https://odem.cloud/#/account/program-details/328">Business Essentials</a></h4>                      
+                          <span class="popular-course-price">$250.00</span>
+                        </div>
+                      </div>
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="https://odem.cloud/#/account/program-details/335">
+                            <img class="media-object" src="assets/img/courses/3.png" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="https://odem.cloud/#/account/program-details/335">Leadership and Managemen</a></h4>                      
+                          <span class="popular-course-price">$90.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end single sidebar -->
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Archives</h3>
+                    <ul class="mu-sidebar-catg mu-sidebar-archives">
+                      <li><a href="#">May <span>(25)</span></a></li>
+                      <li><a href="">June <span>(35)</span></a></li>
+                      <li><a href="">July <span>(20)</span></a></li>
+                      <li><a href="">August <span>(125)</span></a></li>
+                      <li><a href="">September <span>(45)</span></a></li>
+                      <li><a href="">October <span>(85)</span></a></li>
+                    </ul>
+                  </div>
+                  <!-- end single sidebar -->
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Archives</h3>
+                    <ul class="mu-sidebar-catg mu-sidebar-archives">
+                      <li><a href="#">May <span>(25)</span></a></li>
+                      <li><a href="">June <span>(35)</span></a></li>
+                      <li><a href="">July <span>(20)</span></a></li>
+                      <li><a href="">August <span>(125)</span></a></li>
+                      <li><a href="">September <span>(45)</span></a></li>
+                      <li><a href="">October <span>(85)</span></a></li>
+                    </ul>
+                  </div>
+                  <!-- end single sidebar -->
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Tags Cloud</h3>
+                    <div class="tag-cloud">
+                      <a href="https://odem.cloud/#/account/program-details/335">Leadership and Managemen</a>
+                      <a href="#">Science</a>
+                      <a href="https://odem.cloud/#/account/program-details/328">Business Essentials</a>
+                      <a href="https://odem.cloud/#/account/program-details/353">Computer Science</a>
+                      <a href="#">Web Design</a>
+                      <a href="#">Admission</a>
+                      <a href="#">History</a>
+                      <a href="#">Environment</a>
+                    </div>
+                  </div>
+                  <!-- end single sidebar -->
+                </aside>
+                <!-- / end sidebar -->
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+  <!-- Start footer -->
+  <footer id="mu-footer">
+    <!-- start footer top -->
+    <div class="mu-footer-top">
+      <div class="container">
+        <div class="mu-footer-top-area">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Information</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="">Features</a></li>
+                  <li><a href="">Course</a></li>
+                  <li><a href="">Event</a></li>
+                  <li><a href="">Sitemap</a></li>
+                  <li><a href="">Term Of Use</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Student Help</h4>
+                <ul>
+                  <li><a href="">Get Started</a></li>
+                  <li><a href="#">My Questions</a></li>
+                  <li><a href="">Download Files</a></li>
+                  <li><a href="">Latest Course</a></li>
+                  <li><a href="">Academic News</a></li>                  
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>News letter</h4>
+                <p>Get latest update, news & academic offers</p>
+                <form class="mu-subscribe-form">
+                  <input type="email" placeholder="Type your Email">
+                  <button class="mu-subscribe-btn" type="submit">Subscribe!</button>
+                </form>               
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Contact</h4>
+                <address>
+                  <p>P.O. Box 320, Ross, California 9495, USA</p>
+                  <p>Phone: (415) 453-1568 </p>
+                  <p>Website: www.markups.io</p>
+                  <p>Email: info@markups.io</p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer top -->
+    <!-- start footer bottom -->
+    <div class="mu-footer-bottom">
+      <div class="container">
+        <div class="mu-footer-bottom-area">
+          <p>&copy; All Right Reserved. Designed by <a href="http://www.markups.io/" rel="nofollow">MarkUps.io</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- end footer bottom -->
+  </footer>
+  <!-- End footer -->
+
+
+
+
+
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/waypoints.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>  
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+
+  </body>
+</html>
